@@ -37,7 +37,7 @@
 	<ul>
 		<li><a href="#morocco-agadir">Morocco › Agadir</a></li>
 		<li><a href="#morocco-casablanca">Morocco › Casablanca</a></li>
-		<li><a href="#morocco-casablanca">Morocco › Rabat</a></li>
+		<li><a href="#morocco-rabat">Morocco › Rabat</a></li>
 	</ul>
 
 	<h3>Portugal (4)</h3>
@@ -58,7 +58,7 @@
 	<ul>
 		<li><a href="#usa-colorado-denver">USA › Colorado › Denver</a></li>
 		<li><a href="#usa-georgia-atlanta">USA › Georgia › Atlanta</a></li>
-		<li><a href="usa-illinois-chicago">USA › Illinois › Chicago</a></li>
+		<li><a href="#usa-illinois-chicago">USA › Illinois › Chicago</a></li>
 		<li><a href="#usa-maryland-baltimore">USA › Maryland › Baltimore</a></li>
 		<li><a href="#usa-new-york-new-york-city">USA › New York › New York City</a></li>
 		<li><a href="#usa-pennsylvania-philadelphia">USA › Pennsylvania › Philadelphia</a></li>
@@ -91,7 +91,7 @@
 		<?php buildHTMLTable($filepath_morocco_agadir); ?>
 	</table>
 
-	<h3 id="morocco-agadir">Morocco, Casablanca (4)</h3>
+	<h3 id="morocco-casablanca">Morocco, Casablanca (4)</h3>
 	<table sortable>
 		<tr>
 		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
@@ -100,7 +100,7 @@
 		<?php buildHTMLTable($filepath_morocco_casablanca); ?>
 	</table>
 
-	<h3 id="morocco-agadir">Morocco, Rabat (3)</h3>
+	<h3 id="morocco-rabat">Morocco, Rabat (3)</h3>
 	<table sortable>
 		<tr>
 		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
@@ -190,7 +190,7 @@
 		<?php buildHTMLTable($filepath_usa_pennsylvania_philadelphia); ?>
 	</table>
 
-	<h3 id="studiolist-usa-tennessee-nashville">USA, Tennessee, Nashville (7)</h3>
+	<h3 id="usa-tennessee-nashville">USA, Tennessee, Nashville (7)</h3>
 	<table sortable>
 		<tr>
 		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
