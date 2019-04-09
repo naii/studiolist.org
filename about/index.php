@@ -59,7 +59,7 @@
 
 		<h2 id="story">This page is run by naii.io</h2>
 		<p>Hi, I’m Alexander, founder of naii.io. I’m a solo maker and I run this site. </p>
-		<p>I started studiolist.org since I didn’t want to stop traveling only because I switched from being a freelance designer/writer to a voiceover artist. Traveling is in my blood. I enjoy the movement, feeling the global pulse and reading the world’s landscapes. So initially, it was an egoistic reason and I don’t think that’s bad: I just solved a problem I had and I felt I wouldn’t be the only one to benefit from it. So, studiolist.org was born, launched in April 2018.</p>
+		<p>I started studiolist.org since I didn’t want to stop traveling only because I switched from being a freelance designer/writer to a voiceover artist. Traveling is in my blood. I enjoy the movement, feeling the global pulse and reading the world’s landscapes. So initially, it was an egoistic reason and I don’t think that’s bad: I just solved a problem I had and I felt I wouldn’t be the only one to benefit from it. So, studiolist.org was born, launched in April 2018 but in February 2019 is when I started taking it seriously by giving myself 120 days to validate the product and connect to recording studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Here</a> is the whole journey as a public diary on Instagram.</strong></p>
 
 		<h2>Objections</h2>
 		<p>Below you find objections I could think of that could hinder you from using studiolist.</p>

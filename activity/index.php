@@ -61,7 +61,7 @@
 							echo $interval006->days . " days ago";
 						}
 					?>:
-				</strong></span>studiolist.org now online (redirect from studiolist.io cative); Added all verified and visited studios in Morocco, Portugal and Spain; added to link to Mastodon; turned every mention into studiolist.org to make it brand-consistent
+				</strong></span>studiolist.org now online (redirect from studiolist.io cative); Added all verified and visited studios in Morocco, Portugal, Spain and US (NYC, Philadelphia, Baltimore, Atlanta, Nashville, Chicago, Denver); added to link to Mastodon; turned every mention into studiolist.org to make it brand-consistent; added telegram to footer; added 120-day journey to story
 			</li>
 			<li><span><strong><?php echo $interval005->days . " days ago"; ?>: </strong></span>studiolist goes open-source, bought studiolist.org for 240 US dollars, a new /activity page, and some minor on the /about page
 			</li>

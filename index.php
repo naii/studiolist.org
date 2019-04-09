@@ -8,6 +8,13 @@
 	$filepath_spain_barcelona_no_ok = "studios/-verified-no-ok/studiolist-spain-barcelona-no-ok.csv";
 	$filepath_spain_madrid = "studios/studiolist-spain-madrid.csv";
 	$filepath_spain_madrid_no_ok = "studios/-verified-no-ok/studiolist-spain-madrid-no-ok.csv";
+	$filepath_usa_colorado_denver = "studios/studiolist-usa-colorado-denver.csv";
+	$filepath_usa_georgia_atlanta = "studios/studiolist-usa-georgia-atlanta.csv";
+	$filepath_usa_illinois_chicago = "studios/studiolist-usa-illinois-chicago.csv";
+	$filepath_usa_maryland_baltimore = "studios/studiolist-usa-maryland-baltimore.csv";	
+	$filepath_usa_new_york_new_york_city = "studios/studiolist-usa-new-york-new-york-city.csv";
+	$filepath_usa_pennsylvania_philadelphia = "studios/studiolist-usa-pennsylvania-philadelphia.csv";
+	$filepath_usa_tennessee_nashville = "studios/studiolist-usa-tennessee-nashville.csv";
 	// $filepath_usa_texas_tornillo = "studios/studiolist-usa-texas-tornillo.csv";
 	require 'functions.php';
 	$title = "studiolist.org - Find a voiceover studio";
@@ -15,9 +22,9 @@
 ?>
 
 	<h1>Find a voiceover studio</h1>
-	<h2>Verified VO-ready recording studios</h2>
+	<h2>Verified VO-ready recording studios (46)</h2>
 
-	<p>I verify the studios by meeting with the studio owner/manager and have a look at the recording booth and control room. So far I’ve connected to 20+ studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates every day!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
+	<p>I verify the studios by meeting with the studio owner/manager and have a look at the recording booth and control room. So far I’ve verified 40+ studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
 
 	<!-- <h3>Germany</h3>
 
@@ -46,13 +53,25 @@
 		<li><a href="#spain-madrid">Spain › Madrid</a></li>
 	</ul>
 
+	<h3>USA (26)</h3>
+
+	<ul>
+		<li><a href="#usa-colorado-denver">USA › Colorado › Denver</a></li>
+		<li><a href="#usa-georgia-atlanta">USA › Georgia › Atlanta</a></li>
+		<li><a href="usa-illinois-chicago">USA › Illinois › Chicago</a></li>
+		<li><a href="#usa-maryland-baltimore">USA › Maryland › Baltimore</a></li>
+		<li><a href="#usa-new-york-new-york-city">USA › New York › New York City</a></li>
+		<li><a href="#usa-pennsylvania-philadelphia">USA › Pennsylvania › Philadelphia</a></li>
+		<li><a href="#usa-tennessee-nashville">USA › Tennessee › Nashville</a></li>
+	</ul>
+
 	<!-- <h3>USA</h3>
 
 	<ul>
 		<li><a href="#usa-texas-tornillo">USA › TX › Tornillo</a></li>
 	</ul> -->
 
-	<p>There are more studios I verified already, e.g. in Portugal, Spain and the US. After my travels I will add all verified studios.</p>
+	<p>There are more studios I verified already. After my travels I will add all verified studios. The current order of listing is alphabetical.</p>
 
 	<!-- <h3 id="germany-berlin">Germany, Berlin</h3>
 	<table sortable>
@@ -99,7 +118,7 @@
 		<?php buildHTMLTable($filepath_portugal_lisbon); ?>
 	</table>
 
-	<h3 id="spain-madrid">Spain, Barcelona (3)</h3>
+	<h3 id="spain-barcelona">Spain, Barcelona (3)</h3>
 	<table sortable>
 		<tr>
 		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
@@ -115,6 +134,69 @@
 		 <th scope="col"><?php getColumnName($filepath_spain_madrid, 0); ?></th>
 		</tr>
 		<?php buildHTMLTable($filepath_spain_madrid); ?>
+	</table>
+
+	<h3 id="usa-colorado-denver">USA, Colorado, Denver (1)</h3>
+	<table sortable>
+		<tr>
+		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
+		 <th scope="col"><?php getColumnName($filepath_usa_colorado_denver, 0); ?></th>
+		</tr>
+		<?php buildHTMLTable($filepath_usa_colorado_denver); ?>
+	</table>
+
+	<h3 id="usa-georgia-atlanta">USA, Georgia, Atlanta (2)</h3>
+	<table sortable>
+		<tr>
+		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
+		 <th scope="col"><?php getColumnName($filepath_usa_georgia_atlanta, 0); ?></th>
+		</tr>
+		<?php buildHTMLTable($filepath_usa_georgia_atlanta); ?>
+	</table>
+
+	<h3 id="usa-illinois-chicago">USA, Illinois, Chicago (3)</h3>
+	<table sortable>
+		<tr>
+		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
+		 <th scope="col"><?php getColumnName($filepath_usa_illinois_chicago, 0); ?></th>
+		</tr>
+		<?php buildHTMLTable($filepath_usa_illinois_chicago); ?>
+	</table>
+
+	<h3 id="usa-maryland-baltimore">USA, Maryland, Baltimore (2)</h3>
+	<table sortable>
+		<tr>
+		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
+		 <th scope="col"><?php getColumnName($filepath_usa_maryland_baltimore, 0); ?></th>
+		</tr>
+		<?php buildHTMLTable($filepath_usa_maryland_baltimore); ?>
+	</table>
+
+	<h3 id="usa-new-york-new-york-city">USA, New York, New York City (4)</h3>
+	<table sortable>
+		<tr>
+		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
+		 <th scope="col"><?php getColumnName($filepath_usa_new_york_new_york_city, 0); ?></th>
+		</tr>
+		<?php buildHTMLTable($filepath_usa_new_york_new_york_city); ?>
+	</table>
+
+	<h3 id="usa-pennsylvania-philadelphia">USA, Pennsylvania, Philadelphia (7)</h3>
+	<table sortable>
+		<tr>
+		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
+		 <th scope="col"><?php getColumnName($filepath_usa_pennsylvania_philadelphia, 0); ?></th>
+		</tr>
+		<?php buildHTMLTable($filepath_usa_pennsylvania_philadelphia); ?>
+	</table>
+
+	<h3 id="studiolist-usa-tennessee-nashville">USA, Tennessee, Nashville (7)</h3>
+	<table sortable>
+		<tr>
+		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
+		 <th scope="col"><?php getColumnName($filepath_usa_tennessee_nashville, 0); ?></th>
+		</tr>
+		<?php buildHTMLTable($filepath_usa_tennessee_nashville); ?>
 	</table>
 
 	<!-- <h3 id="usa-texas-tornillo">USA, TX, Tornillo</h3>
