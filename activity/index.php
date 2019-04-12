@@ -40,6 +40,7 @@
 			$date004 = new DateTime("2019-02-20");
 			$date005 = new DateTime("2019-03-28");
 			$date006 = new DateTime("2019-04-08");
+			$date007 = new DateTime("2019-04-12");
 			$interval000 = $date000->diff($today);
 			$interval001 = $date001->diff($today);
 			$interval002 = $date002->diff($today);
@@ -47,21 +48,24 @@
 			$interval004 = $date004->diff($today);
 			$interval005 = $date005->diff($today);
 			$interval006 = $date006->diff($today);
+			$interval007 = $date007->diff($today);
 		?>
 
 		<ul>
 			<li>
 				<span><strong>
 					<?php
-						if ($interval006->days == 0) {
+						if ($interval007->days == 0) {
 							echo " Today";
-						} elseif ($interval006->days == 1) {
+						} elseif ($interval007->days == 1) {
 							echo "1 day ago";
 						} else {
-							echo $interval006->days . " days ago";
+							echo $interval007->days . " days ago";
 						}
 					?>:
-				</strong></span>studiolist.org now online (redirect from studiolist.io active); Added all verified and visited studios in Morocco, Portugal, Spain and US (NYC, Philadelphia, Baltimore, Atlanta, Nashville, Chicago, Denver); added to link to Mastodon; turned every mention into studiolist.org to make it brand-consistent; added telegram to footer; added 120-day journey to story
+				</strong></span>added two new VO-verified studios (in Seattle, Washington)
+			</li>
+			<li><span><strong><?php echo $interval006->days . " days ago"; ?>: </strong></span>studiolist.org now online (redirect from studiolist.io active); Added all verified and visited studios in Morocco, Portugal, Spain and US (NYC, Philadelphia, Baltimore, Atlanta, Nashville, Chicago, Denver); added to link to Mastodon; turned every mention into studiolist.org to make it brand-consistent; added telegram to footer; added 120-day journey to story
 			</li>
 			<li><span><strong><?php echo $interval005->days . " days ago"; ?>: </strong></span>studiolist goes open-source, bought studiolist.org for 240 US dollars, a new /activity page, and some minor on the /about page
 			</li>

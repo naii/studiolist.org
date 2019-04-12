@@ -15,6 +15,7 @@
 	$filepath_usa_new_york_new_york_city = "studios/studiolist-usa-new-york-new-york-city.csv";
 	$filepath_usa_pennsylvania_philadelphia = "studios/studiolist-usa-pennsylvania-philadelphia.csv";
 	$filepath_usa_tennessee_nashville = "studios/studiolist-usa-tennessee-nashville.csv";
+	$filepath_usa_washington_seattle = "studios/studiolist-usa-washington-seattle.csv";
 	// $filepath_usa_texas_tornillo = "studios/studiolist-usa-texas-tornillo.csv";
 	require 'functions.php';
 	$title = "studiolist.org - Find a voiceover studio";
@@ -22,7 +23,7 @@
 ?>
 
 	<h1>Find a voiceover studio</h1>
-	<h2>Verified VO-ready recording studios (46)</h2>
+	<h2>Verified VO-ready recording studios (48)</h2>
 
 	<p>I verify the studios by meeting with the studio owner/manager and have a look at the recording booth and control room. So far I’ve verified 40+ studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
 
@@ -53,7 +54,7 @@
 		<li><a href="#spain-madrid">Spain › Madrid</a></li>
 	</ul>
 
-	<h3>USA (26)</h3>
+	<h3>USA (28)</h3>
 
 	<ul>
 		<li><a href="#usa-colorado-denver">USA › Colorado › Denver</a></li>
@@ -63,6 +64,7 @@
 		<li><a href="#usa-new-york-new-york-city">USA › New York › New York City</a></li>
 		<li><a href="#usa-pennsylvania-philadelphia">USA › Pennsylvania › Philadelphia</a></li>
 		<li><a href="#usa-tennessee-nashville">USA › Tennessee › Nashville</a></li>
+		<li><a href="#usa-washington-seattle">USA › Washington › Seattle</a></li>
 	</ul>
 
 	<!-- <h3>USA</h3>
@@ -197,6 +199,15 @@
 		 <th scope="col"><?php getColumnName($filepath_usa_tennessee_nashville, 0); ?></th>
 		</tr>
 		<?php buildHTMLTable($filepath_usa_tennessee_nashville); ?>
+	</table>
+
+	<h3 id="usa-washington-seattle">USA, Washington, Seattle (2)</h3>
+	<table sortable>
+		<tr>
+		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
+		 <th scope="col"><?php getColumnName($filepath_usa_washington_seattle, 0); ?></th>
+		</tr>
+		<?php buildHTMLTable($filepath_usa_washington_seattle); ?>
 	</table>
 
 	<!-- <h3 id="usa-texas-tornillo">USA, TX, Tornillo</h3>
