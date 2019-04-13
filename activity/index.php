@@ -41,6 +41,7 @@
 			$date005 = new DateTime("2019-03-28");
 			$date006 = new DateTime("2019-04-08");
 			$date007 = new DateTime("2019-04-12");
+			$date008 = new DateTime("2019-04-13");
 			$interval000 = $date000->diff($today);
 			$interval001 = $date001->diff($today);
 			$interval002 = $date002->diff($today);
@@ -49,21 +50,24 @@
 			$interval005 = $date005->diff($today);
 			$interval006 = $date006->diff($today);
 			$interval007 = $date007->diff($today);
+			$interval008 = $date008->diff($today);
 		?>
 
 		<ul>
 			<li>
 				<span><strong>
 					<?php
-						if ($interval007->days == 0) {
+						if ($interval008->days == 0) {
 							echo " Today";
-						} elseif ($interval007->days == 1) {
+						} elseif ($interval008->days == 1) {
 							echo "1 day ago";
 						} else {
-							echo $interval007->days . " days ago";
+							echo $interval008->days . " days ago";
 						}
 					?>:
-				</strong></span>added three new VO-verified studios (in Seattle, Washington)
+				</strong></span>added new VO-verified studio (in Seattle, Washington)
+			</li>
+			<li><span><strong><?php	echo $interval007->days . " days ago"; ?>: </strong></span>added three new VO-verified studios (in Seattle, Washington)
 			</li>
 			<li><span><strong><?php echo $interval006->days . " days ago"; ?>: </strong></span>studiolist.org now online (redirect from studiolist.io active); Added all verified and visited studios in Morocco, Portugal, Spain and US (NYC, Philadelphia, Baltimore, Atlanta, Nashville, Chicago, Denver); added to link to Mastodon; turned every mention into studiolist.org to make it brand-consistent; added telegram to footer; added 120-day journey to story
 			</li>
@@ -80,7 +84,7 @@
 		<h3>Statistics</h3>
 
 		<ul>
-		<li>Currently, 49 studios on 3 continents, 4 countries, 8 federal states and 14 cities</li>
+		<li>Currently, 50 studios on 3 continents, 4 countries, 8 federal states and 14 cities</li>
 		</ul>
 
 <?php include '../footer.php'; ?>
