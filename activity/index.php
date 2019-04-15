@@ -42,6 +42,7 @@
 			$date006 = new DateTime("2019-04-08");
 			$date007 = new DateTime("2019-04-12");
 			$date008 = new DateTime("2019-04-13");
+			$date009 = new DateTime("2019-04-15");
 			$interval000 = $date000->diff($today);
 			$interval001 = $date001->diff($today);
 			$interval002 = $date002->diff($today);
@@ -51,21 +52,24 @@
 			$interval006 = $date006->diff($today);
 			$interval007 = $date007->diff($today);
 			$interval008 = $date008->diff($today);
+			$interval009 = $date009->diff($today);
 		?>
 
 		<ul>
 			<li>
 				<span><strong>
 					<?php
-						if ($interval008->days == 0) {
+						if ($interval009->days == 0) {
 							echo " Today";
-						} elseif ($interval008->days == 1) {
+						} elseif ($interval009->days == 1) {
 							echo "1 day ago";
 						} else {
-							echo $interval008->days . " days ago";
+							echo $interval009->days . " days ago";
 						}
 					?>:
-				</strong></span>added new VO-verified studio (in Seattle, Washington)
+				</strong></span>added five new VO-verified studio (in Portland, Oregon)
+			</li>
+			<li><span><strong><?php	echo $interval008->days . " days ago"; ?>: </strong></span>added new VO-verified studio (in Seattle, Washington)
 			</li>
 			<li><span><strong><?php	echo $interval007->days . " days ago"; ?>: </strong></span>added three new VO-verified studios (in Seattle, Washington)
 			</li>

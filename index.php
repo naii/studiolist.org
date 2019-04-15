@@ -13,6 +13,7 @@
 	$filepath_usa_illinois_chicago = "studios/studiolist-usa-illinois-chicago.csv";
 	$filepath_usa_maryland_baltimore = "studios/studiolist-usa-maryland-baltimore.csv";	
 	$filepath_usa_new_york_new_york_city = "studios/studiolist-usa-new-york-new-york-city.csv";
+	$filepath_usa_oregon_portland = "studios/studiolist-usa-oregon-portland.csv";
 	$filepath_usa_pennsylvania_philadelphia = "studios/studiolist-usa-pennsylvania-philadelphia.csv";
 	$filepath_usa_tennessee_nashville = "studios/studiolist-usa-tennessee-nashville.csv";
 	$filepath_usa_washington_seattle = "studios/studiolist-usa-washington-seattle.csv";
@@ -23,9 +24,9 @@
 ?>
 
 	<h1>Find a voiceover studio</h1>
-	<h2>Verified VO-ready recording studios (50)</h2>
+	<h2>Verified VO-ready recording studios (55)</h2>
 
-	<p>I verify the studios by meeting with the studio owner/manager and have a look at the recording booth and control room. So far I’ve verified 50 studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
+	<p>I verify the studios by meeting with the studio owner/manager and have a look at the recording booth and control room. So far I’ve verified 50+ studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
 
 	<!-- <h3>Germany</h3>
 
@@ -54,7 +55,7 @@
 		<li><a href="#spain-madrid">Spain › Madrid</a></li>
 	</ul>
 
-	<h3>USA (30)</h3>
+	<h3>USA (35)</h3>
 
 	<ul>
 		<li><a href="#usa-colorado-denver">USA › Colorado › Denver</a></li>
@@ -62,6 +63,7 @@
 		<li><a href="#usa-illinois-chicago">USA › Illinois › Chicago</a></li>
 		<li><a href="#usa-maryland-baltimore">USA › Maryland › Baltimore</a></li>
 		<li><a href="#usa-new-york-new-york-city">USA › New York › New York City</a></li>
+		<li><a href="#usa-oregon-portland">USA › Oregon › Portland</a></li>
 		<li><a href="#usa-pennsylvania-philadelphia">USA › Pennsylvania › Philadelphia</a></li>
 		<li><a href="#usa-tennessee-nashville">USA › Tennessee › Nashville</a></li>
 		<li><a href="#usa-washington-seattle">USA › Washington › Seattle</a></li>
@@ -181,6 +183,15 @@
 		 <th scope="col"><?php getColumnName($filepath_usa_new_york_new_york_city, 0); ?></th>
 		</tr>
 		<?php buildHTMLTable($filepath_usa_new_york_new_york_city); ?>
+	</table>
+
+	<h3 id="usa-oregon-portland">USA, Oregon, Portland (5)</h3>
+	<table sortable>
+		<tr>
+		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
+		 <th scope="col"><?php getColumnName($filepath_usa_oregon_portland, 0); ?></th>
+		</tr>
+		<?php buildHTMLTable($filepath_usa_oregon_portland); ?>
 	</table>
 
 	<h3 id="usa-pennsylvania-philadelphia">USA, Pennsylvania, Philadelphia (7)</h3>
