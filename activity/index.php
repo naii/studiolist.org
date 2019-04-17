@@ -43,6 +43,7 @@
 			$date007 = new DateTime("2019-04-12");
 			$date008 = new DateTime("2019-04-13");
 			$date009 = new DateTime("2019-04-15");
+			$date010 = new DateTime("2019-04-17");
 			$interval000 = $date000->diff($today);
 			$interval001 = $date001->diff($today);
 			$interval002 = $date002->diff($today);
@@ -53,21 +54,24 @@
 			$interval007 = $date007->diff($today);
 			$interval008 = $date008->diff($today);
 			$interval009 = $date009->diff($today);
+			$interval010 = $date010->diff($today);
 		?>
 
 		<ul>
 			<li>
 				<span><strong>
 					<?php
-						if ($interval009->days == 0) {
+						if ($interval010->days == 0) {
 							echo " Today";
-						} elseif ($interval009->days == 1) {
+						} elseif ($interval010->days == 1) {
 							echo "1 day ago";
 						} else {
-							echo $interval009->days . " days ago";
+							echo $interval010->days . " days ago";
 						}
 					?>:
-				</strong></span>added five new VO-verified studio (in Portland, Oregon)
+				</strong></span>added four new VO-verified studio (in Portland, Oregon)
+			</li>
+			<li><span><strong><?php echo $interval009->days . " days ago"; ?>: </strong></span>added five new VO-verified studio (in Portland, Oregon)
 			</li>
 			<li><span><strong><?php	echo $interval008->days . " days ago"; ?>: </strong></span>added new VO-verified studio (in Seattle, Washington)
 			</li>
@@ -88,7 +92,7 @@
 		<h3>Statistics</h3>
 
 		<ul>
-		<li>Currently, 50 studios on 3 continents, 4 countries, 8 federal states and 14 cities</li>
+		<li>Currently, 59 studios on 3 continents, 4 countries, 9 federal states and 15 cities</li>
 		</ul>
 
 <?php include '../footer.php'; ?>

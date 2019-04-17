@@ -24,7 +24,7 @@
 ?>
 
 	<h1>Find a voiceover studio</h1>
-	<h2>Verified VO-ready recording studios (55)</h2>
+	<h2>Verified VO-ready recording studios (59)</h2>
 
 	<p>I verify the studios by meeting with the studio owner/manager and have a look at the recording booth and control room. So far I’ve verified 50+ studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
 
@@ -55,7 +55,7 @@
 		<li><a href="#spain-madrid">Spain › Madrid</a></li>
 	</ul>
 
-	<h3>USA (35)</h3>
+	<h3>USA (39)</h3>
 
 	<ul>
 		<li><a href="#usa-colorado-denver">USA › Colorado › Denver</a></li>
@@ -185,7 +185,7 @@
 		<?php buildHTMLTable($filepath_usa_new_york_new_york_city); ?>
 	</table>
 
-	<h3 id="usa-oregon-portland">USA, Oregon, Portland (5)</h3>
+	<h3 id="usa-oregon-portland">USA, Oregon, Portland (9)</h3>
 	<table sortable>
 		<tr>
 		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
