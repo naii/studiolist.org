@@ -69,7 +69,7 @@
 							echo $interval010->days . " days ago";
 						}
 					?>:
-				</strong></span>added four new VO-verified studio (in Portland, Oregon)
+				</strong></span>added four new VO-verified studio (in Portland, Oregon); added new San Franciscoe based, VO-verified studio & corrected studio count
 			</li>
 			<li><span><strong><?php echo $interval009->days . " days ago"; ?>: </strong></span>added five new VO-verified studio (in Portland, Oregon)
 			</li>
@@ -92,7 +92,7 @@
 		<h3>Statistics</h3>
 
 		<ul>
-		<li>Currently, 59 studios on 3 continents, 4 countries, 9 federal states and 15 cities</li>
+		<li>Currently, 57 studios on 3 continents, 4 countries, 10 federal states and 16 cities</li>
 		</ul>
 
 <?php include '../footer.php'; ?>
