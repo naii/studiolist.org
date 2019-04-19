@@ -17,7 +17,7 @@
 
 		<ul>
 			<li>Germany - Berlin</li>
-			<li>USA - Miami, New York City, Philadelphia, Baltimore, Washington D.C., Atlanta, Nashville, Chicago, Denver, Seattle</li>
+			<li>USA - Miami, New York City, Philadelphia, Baltimore, Washington D.C., Atlanta, Nashville, Chicago, Denver, Seattle, San Francisco, Los Angeles</li>
 			<li>Morocco - Agadir, Marrakesh, Casablanca, Rabat</li>
 			<li>Portugal - Lisbon</li>
 			<li>Spain - Madrid, Barcelona</li>
@@ -44,6 +44,7 @@
 			$date008 = new DateTime("2019-04-13");
 			$date009 = new DateTime("2019-04-15");
 			$date010 = new DateTime("2019-04-17");
+			$date011 = new DateTime("2019-04-18");
 			$interval000 = $date000->diff($today);
 			$interval001 = $date001->diff($today);
 			$interval002 = $date002->diff($today);
@@ -55,21 +56,24 @@
 			$interval008 = $date008->diff($today);
 			$interval009 = $date009->diff($today);
 			$interval010 = $date010->diff($today);
+			$interval011 = $date011->diff($today);
 		?>
 
 		<ul>
 			<li>
 				<span><strong>
 					<?php
-						if ($interval010->days == 0) {
+						if ($interval011->days == 0) {
 							echo " Today";
-						} elseif ($interval010->days == 1) {
+						} elseif ($interval011->days == 1) {
 							echo "1 day ago";
 						} else {
-							echo $interval010->days . " days ago";
+							echo $interval011->days . " days ago";
 						}
 					?>:
-				</strong></span>added four new VO-verified studio (in Portland, Oregon); added new San Franciscoe based, VO-verified studio & corrected studio count
+				</strong></span>added new VO-verified, San-Francisco-based studio
+			</li>
+			<li><span><strong><?php echo $interval010->days . " days ago"; ?>: </strong></span>added four new VO-verified studio (in Portland, Oregon); added new San Francisco based, VO-verified studio & corrected studio count
 			</li>
 			<li><span><strong><?php echo $interval009->days . " days ago"; ?>: </strong></span>added five new VO-verified studio (in Portland, Oregon)
 			</li>
@@ -92,7 +96,7 @@
 		<h3>Statistics</h3>
 
 		<ul>
-		<li>Currently, 57 studios on 3 continents, 4 countries, 10 federal states and 16 cities</li>
+		<li>Currently, 58 studios on 3 continents, 4 countries, 10 federal states and 16 cities</li>
 		</ul>
 
 <?php include '../footer.php'; ?>
