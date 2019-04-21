@@ -100,7 +100,7 @@
 		<h3>Statistics</h3>
 
 		<ul>
-		<li>Currently, 58 studios on 3 continents, 4 countries, 10 federal states and 16 cities</li>
+		<li>Currently, 59 studios on 3 continents, 4 countries, 10 federal states and 16 cities</li>
 		</ul>
 
 <?php include '../footer.php'; ?>
