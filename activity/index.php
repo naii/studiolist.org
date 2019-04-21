@@ -45,6 +45,7 @@
 			$date009 = new DateTime("2019-04-15");
 			$date010 = new DateTime("2019-04-17");
 			$date011 = new DateTime("2019-04-18");
+			$date012 = new DateTime("2019-04-21");
 			$interval000 = $date000->diff($today);
 			$interval001 = $date001->diff($today);
 			$interval002 = $date002->diff($today);
@@ -57,21 +58,24 @@
 			$interval009 = $date009->diff($today);
 			$interval010 = $date010->diff($today);
 			$interval011 = $date011->diff($today);
+			$interval012 = $date012->diff($today);
 		?>
 
 		<ul>
 			<li>
 				<span><strong>
 					<?php
-						if ($interval011->days == 0) {
+						if ($interval012->days == 0) {
 							echo " Today";
-						} elseif ($interval011->days == 1) {
+						} elseif ($interval012->days == 1) {
 							echo "1 day ago";
 						} else {
-							echo $interval011->days . " days ago";
+							echo $interval012->days . " days ago";
 						}
 					?>:
-				</strong></span>added new VO-verified, San-Francisco-based studio
+				</strong></span>added new VO-verified, San-Francisco-based studio; small correction in the contact form and added honeypot field for/against spam; redirect to https version by default
+			</li>
+			<li><span><strong><?php echo $interval011->days . " days ago"; ?>: </strong></span>added new VO-verified, San-Francisco-based studio
 			</li>
 			<li><span><strong><?php echo $interval010->days . " days ago"; ?>: </strong></span>added four new VO-verified studio (in Portland, Oregon); added new San Francisco based, VO-verified studio & corrected studio count
 			</li>

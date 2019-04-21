@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+# 2019-04-21 Los Angeles, California via https://geekflare.com/http-to-https-redirection/

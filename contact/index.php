@@ -30,6 +30,12 @@
       <fieldset>
         <input id="extra_field" ="" placeholder="…" type="text" name="extra-field" value=""></textarea>
       </fieldset>
+
+      <!-- honeypot field against spam, see: https://stackoverflow.com/a/43379479 -->
+      <fieldset>
+        <input type="text" style="display: none;" id="website" name="website"/>
+      <fieldset>
+      
       <fieldset>
         <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
       </fieldset>

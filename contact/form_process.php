@@ -69,6 +69,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // check: was form submitted?
 		$extra_field_error = "Get out of here!";
 	}
 
+	// honeypot field against spam, see: https://stackoverflow.com/a/43379479
+	//in your php ignore any submissions that inlcude this field
+	if(!empty($_POST['website'])) die();
+
 	if (empty($_POST["message"])) {
 		$message = "";
 		$message_error = "Message cannot be empty";
@@ -86,7 +90,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { // check: was form submitted?
 		}
 
 		$to = "alexander@naii.io";
-		$subject = "New request from studiolist.io";
+		$subject = "New request from studiolist.org";
 		if (mail($to, $subject, $message_body)) {
 			$success = "Message sent, thank you for contacting studiolist.org!";
 			$name = $email = $message = '';
