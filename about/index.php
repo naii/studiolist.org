@@ -3,7 +3,7 @@
 	$title = "About studiolist.org";
 	include '../header.php';
 ?>		
-		<h1>studiolist.org makes it easy find voiceover recording studios and book studio time<!-- to book studio time at amazing rates --></h1>
+		<h1>studiolist.org makes it easy to find voiceover recording studios and book studio time<!-- to book studio time at amazing rates --></h1>
 
 		<p>studiolist.org is a match-maker between top-rated recording studios that have unsold studio time and voiceover artists who want to book this studio time.</p>
 
@@ -37,7 +37,7 @@
 		<p>With each of your booking I’m charging a commission from the studio owner. The commission is simply included in the price but you don’t pay more, the studio owners accept to receive a little less money from the booking. I hope this is fair for all 3 parties :)</p>
 
 		<h3>The best studios always on top!</h3>
-		<p>I’m not accepting payments from studio owners to list their recording studio on top. The only way to get ranked better is by improving their customer service towards the artists who records at their studio. However, in the beginning with no reviews yet, I’ll list the studios alphabetically, from A to Z, so it’s objectively fair.</p>
+		<p>I’m not accepting payments from studio owners to list their recording studio on top. The only way to get ranked better is by improving their customer service towards the artists who record at their studio. However, in the beginning with no reviews yet, I’ll list the studios alphabetically, from A to Z, so it’s objectively fair.</p>
 
 		<h3>Fast loading time</h3>
 		<p>Access studios in milliseconds because the website uses nor images, scripts or special effects. I know you appreciate speed.</p>
@@ -64,7 +64,7 @@
 		<h2>Objections</h2>
 		<p>Below you find objections I could think of that could hinder you from using studiolist.</p>
 		<h3>I could use Google (or Google Maps), why use studiolist.org instead?</h3>
-		<p>studiolist.org is a dedicated service for voice artists and musicians. My interest as the founder of the website is to help you get the best recording quality without being tied to a particular location. Voice creation and music collaboration lives from the exchange of artists that meet face to face. Yes, the Internet is great for digital collaboration but there’s (currently) no way to imitate the spontaneous, in-person interaction as they happen when you look into each other’s eyes. As a voice actor myself, I’m part of both the acting world and the sound &amp; music-producing industry. I like to have this dual perspective and I enjoy what’s being produced in both worlds. So, this is my way to give back to the industry and my way to say „Thank you“.</p>
+		<p>studiolist.org is a dedicated service for voiceover artists. My interest as the founder of the website is to help you get the best recording quality without being tied to a particular location. Voiceover creation and collaboration lives from the exchange of artists that meet face to face. Yes, the Internet is great for digital collaboration but there’s (currently) no way to imitate the spontaneous, in-person interaction as they happen when you look into each other’s eyes. As a voice actor myself, I’m part of both the acting world and the sound &amp; music-producing industry. I like to have this dual perspective and I enjoy what’s being produced in both worlds. So, this is my way to give back to the industry and my way to say „Thank you“.</p>
 		<p>studiolist.org is a place of trust, creativity, connection and friendship. I’m not building a walled garden but a community where recording studios and artists get together. Also, studiolist.org is ethical by design. Compare that to tech giant Google who is far from that. I’m a fan of running a „<a href="https://www.indiehackers.com/podcast/043-pieter-levels-of-nomad-list#4214">corner coffee shop internet business</a>“.</p>
 		<!-- <p>Also, if you use studiolist, you don’t need to type „recording studio London“, you can can simply type „London“. So easy and fast.</p> -->
 
