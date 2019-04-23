@@ -9,6 +9,7 @@
 	$filepath_spain_madrid = "studios/studiolist-spain-madrid.csv";
 	$filepath_spain_madrid_no_ok = "studios/-verified-no-ok/studiolist-spain-madrid-no-ok.csv";
 	$filepath_usa_california_san_francisco = "studios/studiolist-usa-california-san-francisco.csv";
+	$filepath_usa_california_los_angeles = "studios/studiolist-usa-california-los-angeles.csv";
 	$filepath_usa_colorado_denver = "studios/studiolist-usa-colorado-denver.csv";
 	$filepath_usa_georgia_atlanta = "studios/studiolist-usa-georgia-atlanta.csv";
 	$filepath_usa_illinois_chicago = "studios/studiolist-usa-illinois-chicago.csv";
@@ -25,9 +26,9 @@
 ?>
 
 	<h1>Find a voiceover studio</h1>
-	<h2>Verified VO-ready recording studios (59)</h2>
+	<h2>Verified VO-ready recording studios (62)</h2>
 
-	<p>I verify the studios by meeting with the studio owner/manager and have a look at the recording booth and control room. So far I’ve verified 50+ studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
+	<p>I verify the studios by meeting with the studio owner/manager and have a look at the recording booth and control room. So far I’ve verified 60+ studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
 
 	<!-- <h3>Germany</h3>
 
@@ -56,9 +57,10 @@
 		<li><a href="#spain-madrid">Spain › Madrid</a></li>
 	</ul>
 
-	<h3>USA (39)</h3>
+	<h3>USA (42)</h3>
 
 	<ul>
+		<li><a href="#usa-california-los-angeles">USA › California › Los Angeles</a></li>
 		<li><a href="#usa-california-san-francisco">USA › California › San Francisco</a></li>
 		<li><a href="#usa-colorado-denver">USA › Colorado › Denver</a></li>
 		<li><a href="#usa-georgia-atlanta">USA › Georgia › Atlanta</a></li>
@@ -140,6 +142,15 @@
 		 <th scope="col"><?php getColumnName($filepath_spain_madrid, 0); ?></th>
 		</tr>
 		<?php buildHTMLTable($filepath_spain_madrid); ?>
+	</table>
+
+	<h3 id="usa-california-los-angeles">USA, California, Los Angeles (3)</h3>
+	<table sortable>
+		<tr>
+		 <!-- <th scope="col"><?php //getColumnName(0); ?></th> -->
+		 <th scope="col"><?php getColumnName($filepath_usa_california_los_angeles, 0); ?></th>
+		</tr>
+		<?php buildHTMLTable($filepath_usa_california_los_angeles); ?>
 	</table>
 
 	<h3 id="usa-california-san-francisco">USA, California, San Francisco (3)</h3>

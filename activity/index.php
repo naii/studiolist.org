@@ -9,7 +9,7 @@
 		
 		<h2>Current activity</h2>
 
-		<p><strong>I’m validating a studiolist.org within 4 months (Feb 1 to May 31) while traveling & working (day job, voiceover). No market validation until Jun 1 means studiolist.org dies.</strong> In practical terms this means that I’m cold-contacting recording studios to connect to them and convince them to be listed on studiolist.org.</p>
+		<p><strong>I’m validating studiolist.org within 4 months (Feb 1 to May 31) while traveling & working (day job, voiceover). No market validation until Jun 1 means studiolist.org dies.</strong> In practical terms this means that I’m cold-contacting recording studios to connect to them and convince them to be listed on studiolist.org.</p>
 
 		<p><strong><a href="https://www.instagram.com/naii.io/">Follow my daily struggle as an adventureneur!</a></strong></p>
 
@@ -46,6 +46,7 @@
 			$date010 = new DateTime("2019-04-17");
 			$date011 = new DateTime("2019-04-18");
 			$date012 = new DateTime("2019-04-21");
+			$date013 = new DateTime("2019-04-23");
 			$interval000 = $date000->diff($today);
 			$interval001 = $date001->diff($today);
 			$interval002 = $date002->diff($today);
@@ -59,21 +60,24 @@
 			$interval010 = $date010->diff($today);
 			$interval011 = $date011->diff($today);
 			$interval012 = $date012->diff($today);
+			$interval013 = $date013->diff($today);
 		?>
 
 		<ul>
 			<li>
 				<span><strong>
 					<?php
-						if ($interval012->days == 0) {
+						if ($interval013->days == 0) {
 							echo " Today";
-						} elseif ($interval012->days == 1) {
+						} elseif ($interval013->days == 1) {
 							echo "1 day ago";
 						} else {
-							echo $interval012->days . " days ago";
+							echo $interval013->days . " days ago";
 						}
 					?>:
-				</strong></span>added new VO-verified, San-Francisco-based studio; small correction in the contact form and added honeypot field for/against spam; redirect to https version by default
+				</strong></span>added three new VO-verified, Los-Angeles-based studios; small copy updates
+			</li>
+			<li><span><strong><?php	echo $interval012->days . " days ago"; ?>: </strong></span>added new VO-verified, San-Francisco-based studio; small correction in the contact form and added honeypot field for/against spam; redirect to https version by default
 			</li>
 			<li><span><strong><?php echo $interval011->days . " days ago"; ?>: </strong></span>added new VO-verified, San-Francisco-based studio
 			</li>
@@ -100,7 +104,7 @@
 		<h3>Statistics</h3>
 
 		<ul>
-		<li>Currently, 59 studios on 3 continents, 4 countries, 10 federal states and 16 cities</li>
+		<li>Currently, 62 studios on 3 continents, 4 countries, 10 federal states and 17 cities</li>
 		</ul>
 
 <?php include '../footer.php'; ?>
