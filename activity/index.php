@@ -4,6 +4,7 @@
 	include '../header.php';
 ?>		
 
+		<!-- <section id="main-content"> -->
 		<h1>Public documentation</h1>
 		<p>I prefer to be open and transparent about the development of studiolist.org. That’s why I’m listing major development steps here. I understand that this is not super interesting for you as an artist but my developer friends like it and some of them are voiceover artists as well :P</p>
 		
@@ -106,5 +107,6 @@
 		<ul>
 		<li>Currently, 62 studios on 3 continents, 4 countries, 10 federal states and 17 cities</li>
 		</ul>
+		<!-- </section> -->
 
 <?php include '../footer.php'; ?>

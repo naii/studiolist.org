@@ -2,7 +2,8 @@
 	require '../functions.php';
 	$title = "About studiolist.org";
 	include '../header.php';
-?>		
+?>	
+		<!-- <section id="main-content"> -->
 		<h1>studiolist.org makes it easy to find voiceover recording studios and book studio time<!-- to book studio time at amazing rates --></h1>
 
 		<p>studiolist.org is a match-maker between top-rated recording studios that have unsold studio time and voiceover artists who want to book this studio time.</p>
@@ -69,5 +70,6 @@
 		<!-- <p>Also, if you use studiolist, you don’t need to type „recording studio London“, you can can simply type „London“. So easy and fast.</p> -->
 
 		<p><em>If you have other objections, I’d be happy to answer them here publicly as well.</em></p>
+		<!-- </section> -->
 
 <?php include '../footer.php'; ?>
