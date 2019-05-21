@@ -21,12 +21,13 @@
 	$filepath_usa_washington_seattle = "studios/studiolist-usa-washington-seattle.csv";
 	// $filepath_usa_texas_tornillo = "studios/studiolist-usa-texas-tornillo.csv";
 	require 'functions.php';
-	$title = "studiolist.org - Find a voiceover studio";
+	// $title = "studiolist.org - Find a voiceover studio";
+	$title = "Voiceover studios for Actors, YouTubers and Podcasters - studiolist.org";
 	include 'header.php';#
 ?>
 
-	<h1>Find a voiceover studio</h1>
-	<h2>Verified VO-ready recording studios (62)</h2>
+	<h1>Voiceover studios for Actors, YouTubers and Podcasters<!-- Find a voiceover studio --></h1>
+	<h2>Find verified VO-ready recording studios (62)</h2>
 
 	<p>I verify the studios by meeting with the studio owner/manager and have a look at the recording booth and control room. So far I’ve verified 60+ studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
 

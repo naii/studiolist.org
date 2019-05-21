@@ -7,6 +7,7 @@
 	<meta http-equiv="content-language" content="en">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Voiceover recording studios for voice actors, YouTube creators and podcast makers who travel a lot!">
 	<link rel="stylesheet" href="/style.css">
 	<link rel="stylesheet" href="<?php echo $other_stylesheet; ?>">
 </head>
