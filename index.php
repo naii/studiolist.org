@@ -27,10 +27,10 @@
 ?>
 
 	<!-- <section id="main-content"> -->
-	<h1>Voiceover studios for Actors, YouTubers and Podcasters<!-- Find a voiceover studio --></h1>
+	<h1>Voiceover studios for Actors, Audiobook Narrators, YouTubers and Podcasters<!-- Find a voiceover studio --></h1>
 	<h2>Find verified VO-ready recording studios (62)</h2>
 
-	<p>studiolist.org is a <strong>growing database of voiceover recording studios</strong> for voice actors, YouTube creators and podcast makers who travel a lot! I verify the studios by meeting with the studio owner/manager in person and have a look at the recording booth and control room. So far I’ve verified 60+ studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
+	<p>studiolist.org is a <strong>growing database of voiceover recording studios</strong> for voice actors, audiobook narrators, YouTube creators and podcast makers who travel a lot! I verify the studios by meeting with the studio owner/manager in person and have a look at the recording booth and control room. So far I’ve verified 60+ studios. <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/">Live updates here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
 
 	<!-- <h3>Germany</h3>
 
