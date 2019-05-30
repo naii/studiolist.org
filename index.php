@@ -22,7 +22,7 @@
 	// $filepath_usa_texas_tornillo = "studios/studiolist-usa-texas-tornillo.csv";
 	require 'functions.php';
 	// $title = "studiolist.org - Find a voiceover studio";
-	$title = "Voiceover studios for Actors, YouTubers and Podcasters - studiolist.org";
+	$title = "Voiceover studios for Actors, Narrators, YouTubers and Podcasters - studiolist.org";
 	include 'header.php';#
 ?>
 
