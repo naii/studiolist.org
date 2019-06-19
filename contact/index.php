@@ -6,7 +6,7 @@
 ?>
   <div class="container">  
     <form id="contact" action="<?= $_SERVER['PHP_SELF']; ?>" method="post">
-      <h2>Send your request</h2>
+      <h1>Send your request</h1>
       <!-- <h2>Contact Alexander today, and get reply with in 24 hours!</h2> -->
       <fieldset>
         <input placeholder="Your name" type="text" tabindex="1" name="name" value="<?= $name ?>" autofocus>
