@@ -20,6 +20,16 @@
   $filepath_usa_tennessee_nashville = "../studios/studiolist-usa-tennessee-nashville.csv";
   $filepath_usa_washington_seattle = "../studios/studiolist-usa-washington-seattle.csv";
   // $filepath_usa_texas_tornillo = "studios/studiolist-usa-texas-tornillo.csv";
+  $filepath_uk_sheffield = "../studios/studiolist-uk-sheffield.csv";
+  $filepath_uk_bristol = "../studios/studiolist-uk-bristol.csv";
+  $filepath_uk_cardiff = "../studios/studiolist-uk-cardiff.csv";
+  $filepath_uk_edinburgh = "../studios/studiolist-uk-edinburgh.csv";
+  $filepath_uk_liverpool = "../studios/studiolist-uk-liverpool.csv";
+  $filepath_uk_london = "../studios/studiolist-uk-london.csv";
+  $filepath_uk_manchester = "../studios/studiolist-uk-manchester.csv";
+  $filepath_uk_newcastle = "../studios/studiolist-uk-newcastle.csv";
+  $filepath_uk_oxford = "../studios/studiolist-uk-oxford.csv";
+
   require '../functions.php';
   // $title = "studiolist.org - Find a voiceover studio";
   $title = "All verified voiceover recording studios - studiolist.org";
@@ -51,6 +61,21 @@
       <li><a href="#spain-madrid">Spain › Madrid</a></li>
     </ul>
 
+    <h3>UK (26)</h3>
+
+    <ul>
+      <li><a href="#uk-bristol">UK › Bristol</a></li>
+      <li><a href="#uk-cardiff">UK › Cardiff</a></li>
+      <li><a href="#uk-edinburgh">UK › Edinburgh</a></li>
+      <li><a href="#uk-liverpool">UK › Liverpool</a></li>
+      <li><a href="#uk-london">UK › London</a></li>
+      <li><a href="#uk-manchester">UK › Manchester</a></li>
+      <li><a href="#uk-newcastle">UK › Newcastle</a></li>
+      <li><a href="#uk-oxford">UK › Oxford</a></li>
+      <li><a href="#uk-sheffield">UK › Sheffield</a></li>
+    </ul>
+
+
     <h3>USA (42)</h3>
 
     <ul>
@@ -76,10 +101,9 @@
   </section>
   <section>
 
-  <h2>The complete list of verified studios</h2>
+  <h2>The complete list of all verified studios</h2>
 
-
-    <p>There are more studios I verified already. After my travels I will add all verified studios. The current order of listing is alphabetical.</p>
+    <p><!-- There are more studios I verified already. After my travels I will add all verified studios. --> The current order of listing is alphabetical.</p>
 
     <!-- <h3 id="germany-berlin">Germany, Berlin</h3>
     <table sortable>
@@ -89,6 +113,8 @@
       </tr>
       <?php buildHTMLTable($filepath_germany_berlin); ?>
     </table> -->
+
+    <p><hr class="below-the-fold-subtle"></p>
 
     <h3 id="morocco-agadir">Morocco, Agadir (1)</h3>
     <table sortable>
@@ -117,6 +143,8 @@
       <?php buildHTMLTable($filepath_morocco_rabat); ?>
     </table>
 
+    <p><hr class="below-the-fold-subtle"></p>
+
     <h3 id="portugal-lisbon">Portugal, Lisbon (4)</h3>
     <table sortable>
       <tr>
@@ -125,6 +153,8 @@
       </tr>
       <?php buildHTMLTable($filepath_portugal_lisbon); ?>
     </table>
+
+    <p><hr class="below-the-fold-subtle"></p>
 
     <h3 id="spain-barcelona">Spain, Barcelona (3)</h3>
     <table sortable>
@@ -143,6 +173,82 @@
       </tr>
       <?php buildHTMLTable($filepath_spain_madrid); ?>
     </table>
+
+    <p><hr class="below-the-fold-subtle"></p>
+
+    <h3 id="uk-bristol">UK, Bristol (5)</h3>
+    <table sortable>
+      <tr>
+       <th scope="col"><?php getColumnName($filepath_uk_bristol, 0); ?></th>
+      </tr>
+      <?php buildHTMLTable($filepath_uk_bristol); ?>
+    </table>
+
+    <h3 id="uk-cardiff">UK, Cardiff (1)</h3>
+    <table sortable>
+      <tr>
+       <th scope="col"><?php getColumnName($filepath_uk_cardiff, 0); ?></th>
+      </tr>
+      <?php buildHTMLTable($filepath_uk_cardiff); ?>
+    </table>
+
+    <h3 id="uk-edinburgh">UK, Edinburgh (3)</h3>
+    <table sortable>
+      <tr>
+       <th scope="col"><?php getColumnName($filepath_uk_edinburgh, 0); ?></th>
+      </tr>
+      <?php buildHTMLTable($filepath_uk_edinburgh); ?>
+    </table>
+
+    <h3 id="uk-liverpool">UK, Liverpool (1)</h3>
+    <table sortable>
+      <tr>
+       <th scope="col"><?php getColumnName($filepath_uk_liverpool, 0); ?></th>
+      </tr>
+      <?php buildHTMLTable($filepath_uk_liverpool); ?>
+    </table>
+
+    <h3 id="uk-london">UK, London (6)</h3>
+    <table sortable>
+      <tr>
+       <th scope="col"><?php getColumnName($filepath_uk_london, 0); ?></th>
+      </tr>
+      <?php buildHTMLTable($filepath_uk_london); ?>
+    </table>
+
+    <h3 id="uk-manchester">UK, Manchester (2)</h3>
+    <table sortable>
+      <tr>
+       <th scope="col"><?php getColumnName($filepath_uk_manchester, 0); ?></th>
+      </tr>
+      <?php buildHTMLTable($filepath_uk_manchester); ?>
+    </table>
+
+    <h3 id="uk-newcastle">UK, Newcastle (3)</h3>
+    <table sortable>
+      <tr>
+       <th scope="col"><?php getColumnName($filepath_uk_newcastle, 0); ?></th>
+      </tr>
+      <?php buildHTMLTable($filepath_uk_newcastle); ?>
+    </table>
+
+    <h3 id="uk-oxford">UK, Oxford (2)</h3>
+    <table sortable>
+      <tr>
+       <th scope="col"><?php getColumnName($filepath_uk_oxford, 0); ?></th>
+      </tr>
+      <?php buildHTMLTable($filepath_uk_oxford); ?>
+    </table>
+
+    <h3 id="uk-sheffield">UK, Sheffield (3)</h3>
+    <table sortable>
+      <tr>
+       <th scope="col"><?php getColumnName($filepath_uk_sheffield, 0); ?></th>
+      </tr>
+      <?php buildHTMLTable($filepath_uk_sheffield); ?>
+    </table>
+
+    <p><hr class="below-the-fold-subtle"></p>
 
     <h3 id="usa-california-los-angeles">USA, California, Los Angeles (3)</h3>
     <table sortable>

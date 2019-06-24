@@ -20,7 +20,7 @@
 				</h1>
 				<!-- <ul class="alignright"> -->
 				<ul>
-					<li><a href="/list">All studios</a></li>
+					<li><a href="/list/">All studios</a></li>
 					<li><a href="/about/">About</a></li>
 					<li><a href="/activity/">Activity</a></li>
 					<li><a href="/contact/">Contact</a></li>

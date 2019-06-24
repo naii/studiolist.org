@@ -48,7 +48,35 @@
 
 	<section id="studio">
 		<h2>Do you run a studio?</h2>
-		<p>…</p>
+		<p>So far I’ve verified close to 100 studios. If we haven&#8217;t met yet, make sure to <a href="/contact/">contact me</a> with the name of your studio, its full address, website and the name of the best person to contact as well as his or her email address. I will then arrange a meeting in person wherever your studio is located. No meeting in person no chance to be listed on studiolist.org. I&#8217;m old-school in that regard.</p>
+
+		<h3>Most important updates for studiolist.org partners ONLY!</h3>
+
+		<p>If you sign up and I cannot associate your email address with a studio I connected with I&#8217;ll take the liberty to remove you from the subscription. Please <a href="/contact/">use the contact form</a> so we can arrange a meeting in person and then decide whether we&#8217;d like to work together or part ways.</p>
+
+		<p>Sign up below <em>only if you are a verified studiolist.org partner studio already</em>.</p>
+
+		<!-- Begin Mailchimp Signup Form -->
+		<div id="mc_embed_signup">
+		<form action="https://naii.us3.list-manage.com/subscribe/post?u=423e4dca59766d0a78ce04255&amp;id=881dc54e17" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+		    <div id="mc_embed_signup_scroll">
+			
+		<div class="mc-field-group">
+			<label for="mce-EMAIL"><!-- Your best email address is… --> </label>
+			<input placeholder="Enter email to receive updates" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+		</div>
+			<div id="mce-responses" class="clear">
+				<div class="response" id="mce-error-response" style="display:none"></div>
+				<div class="response" id="mce-success-response" style="display:none"></div>
+			</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+		    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_423e4dca59766d0a78ce04255_881dc54e17" tabindex="-1" value=""></div>
+		    <div class="clear"><input type="submit" value="Get partner updates" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+		    </div>
+		</form>
+		</div>
+
+		<!--End mc_embed_signup-->
+
 	</section>
 
 <?php include 'footer.php'; ?>
