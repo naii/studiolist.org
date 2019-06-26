@@ -189,3 +189,21 @@ h1 a.top-link:any-link {
 	-moz-transition:background 0.3s ease-in-out;
 	transition:background-color 0.3s ease-in-out;
 }
+
+.input-group ul {
+	list-style: none;
+	padding-left: 20px;
+}
+
+#mc_embed_signup input[type="checkbox"] {
+	 zoom: 1.5;
+}
+
+/* Might want to wrap a span around your checkbox text */
+.checkboxtext
+{
+  /* Checkbox text */
+  /*font-size: 110%;*/
+  display: inline;
+  padding: 0 0 0 .25em;
+}
