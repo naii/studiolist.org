@@ -6,7 +6,7 @@
 
 	<!-- <section id="main-content"> -->
 	<h1>Best Recording Studios for Digital Voiceover Nomads<!-- Best Recording Studios for Digital Nomad Voiceover Artists --><!-- Best Recording Studios for Nomad Voiceover Artists! --><!-- Search engine of recording studios for voice actors, YouTube creators and podcast makers who travel a lot! --><!-- Search engine of voiceover studios for actors, audiobook narrators, YouTubers and podcasters --><!-- Voiceover studios for Actors, Audiobook Narrators, YouTubers and Podcasters --><!-- Find a voiceover studio --></h1>
-	<h2>Largest database of verified voiceover-ready recording studios (88)</h2>
+	<h2>Largest database of verified voiceover-ready recording studios (89)</h2>
 
 	<p>studiolist.org is a <strong>growing database of voiceover recording studios</strong> for voice actors, audiobook narrators, YouTube creators and podcast makers who travel a lot! I verify the studios by meeting with the studio owner/manager in person and have a look at the recording booth and control room. So far I’ve verified close to 100 studios. You can follow my <strong><a href="https://www.instagram.com/explore/tags/startupdiarystudiolist/"><span class="all-caps">live updates</span> here!</a></strong><!-- The studios are currently listed alphabetically. Click a studio to see all contact details (soon). --></p>
 

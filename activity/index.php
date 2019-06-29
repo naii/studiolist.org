@@ -118,7 +118,7 @@
 		<h3>Statistics</h3>
 
 		<ul>
-		<li>Currently, 88 studios on 3 continents, 7 countries, 10 federal states and 26 cities</li>
+		<li>Currently, 89 studios on 3 continents, 7 countries, 10 federal states and 27 cities</li>
 		</ul>
 		<!-- </section> -->
 

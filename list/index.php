@@ -21,6 +21,7 @@
   $filepath_usa_washington_seattle = "../studios/studiolist-usa-washington-seattle.csv";
   // $filepath_usa_texas_tornillo = "studios/studiolist-usa-texas-tornillo.csv";
   $filepath_uk_sheffield = "../studios/studiolist-uk-sheffield.csv";
+  $filepath_uk_bath = "../studios/studiolist-uk-bath.csv";
   $filepath_uk_bristol = "../studios/studiolist-uk-bristol.csv";
   $filepath_uk_cardiff = "../studios/studiolist-uk-cardiff.csv";
   $filepath_uk_edinburgh = "../studios/studiolist-uk-edinburgh.csv";
@@ -61,9 +62,10 @@
       <li><a href="#spain-madrid">Spain › Madrid</a></li>
     </ul>
 
-    <h3>UK (26)</h3>
+    <h3>UK (27)</h3>
 
     <ul>
+      <li><a href="#uk-bath">UK › Bath</a></li>
       <li><a href="#uk-bristol">UK › Bristol</a></li>
       <li><a href="#uk-cardiff">UK › Cardiff</a></li>
       <li><a href="#uk-edinburgh">UK › Edinburgh</a></li>
@@ -172,6 +174,16 @@
        <th scope="col"><?php getColumnName($filepath_spain_madrid, 0); ?></th>
       </tr>
       <?php buildHTMLTable($filepath_spain_madrid); ?>
+    </table>
+
+    <p><hr class="below-the-fold-subtle"></p>
+
+    <h3 id="uk-bath">UK, Bath (1)</h3>
+    <table sortable>
+      <tr>
+       <th scope="col"><?php getColumnName($filepath_uk_bath, 0); ?></th>
+      </tr>
+      <?php buildHTMLTable($filepath_uk_bath); ?>
     </table>
 
     <p><hr class="below-the-fold-subtle"></p>
