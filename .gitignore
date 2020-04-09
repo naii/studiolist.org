@@ -1,3 +1,7 @@
+# directories to ignore
+-Vault/
+-Archive/
+
 # ignore .svg files
 *svg
 
